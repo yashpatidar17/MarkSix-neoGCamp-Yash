@@ -1,0 +1,67 @@
+:root{
+    --primary-color:#F7CD2E;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+.navigation{
+    padding: 1rem;
+    display: block;
+    background-color: var(--primary-color);
+    box-sizing: border-box;
+}
+
+.navigation h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#text-area{
+    width: 50%;
+    height: 15vh;
+    display: block;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+    margin-top: 2rem;
+}
+
+#translateBtn{
+    margin:auto;
+    align-items: center;
+    display: block;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    background-color: var(--primary-color);
+}
+
+.div-text{
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#output-area{
+ width: 50%;
+ border: 1px solid black;
+ height: 12vh;
+ box-sizing: border-box;
+ margin:auto;
+ margin-top: 1rem;
+}
+
+.footer{
+    position:fixed;
+    padding: 0.5rem;
+    bottom: 0;
+    display: block;
+    text-align: center;
+    background-color: var(--primary-color);
+    width: 100%;
+    box-sizing: border-box;
+}
