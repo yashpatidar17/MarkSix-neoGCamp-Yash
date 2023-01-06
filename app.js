@@ -8,7 +8,7 @@ function getTranslationUrl(text){
     return serverUrl + "?" + "text=" +text;
 }
 
-function eventAfterClick(event){
+function eventAfterClick(){
     var textInput = textAreaInput.value;
 
     fetch(getTranslationUrl(textInput))
