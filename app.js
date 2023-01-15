@@ -8,6 +8,10 @@ function getTranslationUrl(text){
     return serverUrl + "?" + "text=" +text;
 }
 
+function errorHandler(error){
+    alert("An error occured please try after some time")
+}
+
 function eventAfterClick(){
     var textInput = textAreaInput.value;
 
@@ -17,6 +21,7 @@ function eventAfterClick(){
             textAreaoutput.innerText = json.contents.translated;
              
         })
+        .catch(errorHandler)
 }
 
 translateButton.addEventListener("click",eventAfterClick);
